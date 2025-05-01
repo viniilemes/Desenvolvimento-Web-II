@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src", // Permite imports absolutos a partir do diretório `src`
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    "jsx": "react-jsx", // Atualizado para "react-jsx"
+    "moduleResolution": "node", // Atualizado para "node"
+    "esModuleInterop": true // Permite interoperabilidade com módulos ES
+  }
+}
